@@ -1,0 +1,15 @@
+#logo{
+    /* ridimensionamento logo */
+    width: 10%;
+}
+header{
+    /* inserimento immagine di sfondo */
+    background-image: url(pattern.png); 
+    /* impostare l'immagine di sfondo in dimensione automatica */
+    background-size: auto;
+    /* assegnazione colore all'immagine di sfondo */
+    background-color:	#5CACEE;
+    /* margine di pixel da lasciare sopra */
+    padding-top: 110px;
+}
+
