@@ -1,6 +1,6 @@
 #logo{
     /* ridimensionamento logo */
-    width: 10%;
+    width: 15%;
 }
 header{
     /* inserimento immagine di sfondo */
@@ -10,6 +10,38 @@ header{
     /* assegnazione colore all'immagine di sfondo */
     background-color:	#5CACEE;
     /* margine di pixel da lasciare sopra */
-    padding-top: 110px;
+    padding-top: 7%;
+}
+body{
+    width: 55%;
+    margin: 0 auto;
 }
 
+ h1{ 
+    font-size: 300%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#sottotitolo{
+    font-size: 100%;
+    color: grey;
+}
+
+span{
+    color: #5CACEE;
+}
+
+#data{
+    font-size: 80%;
+    color: grey;
+    margin-bottom: 1%;
+}
+ 
+#dimensioneimmagini{
+    width: auto;
+}
+
+#descrizione{
+    font-size: 80%;
+}
