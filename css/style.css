@@ -55,3 +55,7 @@ body{
 .evidenziatore{
     background-color: yellow;
 }
+
+ul{
+    padding-left: 1%;
+}
