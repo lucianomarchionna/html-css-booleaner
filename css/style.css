@@ -56,6 +56,25 @@ body{
     background-color: yellow;
 }
 
+/* sposto un pò la lista per alliniarla al testo */
 ul{
     padding-left: 1%;
+}
+
+table{
+    margin-top: 5%;
+    border-collapse: collapse;
+}
+thead{
+    text-align: left;
+    color: white;
+    background-color: #5CACEE;
+}
+
+.dimensionetab{
+    width: 25%;
+}
+
+.colore{
+    background-color: rgb(169, 243, 250);
 }
