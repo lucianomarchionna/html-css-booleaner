@@ -78,3 +78,22 @@ thead{
 .colore{
     background-color: rgb(169, 243, 250);
 }
+
+#chiaro{
+    margin-top: 2%;
+    font-size: 100%;
+    color: grey;
+}
+
+.img{
+    position: relative;
+    margin-top: 1%;
+}
+
+.testo{
+    position: absolute;
+    color: white;
+    left: 1%;
+    top: 2%;
+    font-size: 200%;
+}
