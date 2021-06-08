@@ -12,7 +12,9 @@ header{
     /* margine di pixel da lasciare sopra */
     padding-top: 7%;
 }
+
 body{
+/* creazione margine e accentramento della corpo della pagina */
     width: 55%;
     margin: 0 auto;
 }
@@ -28,7 +30,7 @@ body{
     color: grey;
 }
 
-span{
+#a{
     color: #5CACEE;
 }
 
@@ -44,4 +46,12 @@ span{
 
 #descrizione{
     font-size: 80%;
+}
+
+.lorem{
+    margin-top: 5%;
+}
+
+.evidenziatore{
+    background-color: yellow;
 }
