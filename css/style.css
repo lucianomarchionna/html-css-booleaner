@@ -4,7 +4,7 @@
 }
 header{
     /* inserimento immagine di sfondo */
-    background-image: url(pattern.png); 
+    background-image: url(../img/pattern.png); /*i punti servono per tornare indietro di cartella */
     /* impostare l'immagine di sfondo in dimensione automatica */
     background-size: auto;
     /* assegnazione colore all'immagine di sfondo */
@@ -16,7 +16,9 @@ header{
 body{
 /* creazione margine e accentramento della corpo della pagina */
     width: 55%;
-    margin: 0 auto;
+    /* ridimensionamento del body */
+    margin: 0 auto; 
+    /* margin 0 auto viene usato per centrare il tutto */
 }
 
  h1{ 
@@ -63,8 +65,10 @@ ul{
 
 table{
     margin-top: 5%;
+    /* elimino i bordi all'interno della tabella */
     border-collapse: collapse;
 }
+
 thead{
     text-align: left;
     color: white;
@@ -85,6 +89,7 @@ thead{
     color: grey;
 }
 
+/* position relative e absolute vengono utilizzate per scrivere all'interno di un'immagine */
 .img{
     position: relative;
     margin-top: 1%;
